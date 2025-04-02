@@ -1,0 +1,153 @@
+body {
+	background-color: whitesmoke;
+	margin:20 px;
+	height: 100%;
+}
+*{
+    margin:0;
+    padding:0;
+    
+}
+ 
+h1{
+font-size:20pt;
+font-family: Arial;
+font-weight: normal;
+margin:.30px;
+display:block;
+}
+
+h5{
+	font-size:16pt;
+	
+}
+	
+#logo{
+	width: 20%;
+	height: auto;
+}
+#container {
+ 	  width: 100%;
+ 	  margin: 0 auto 0 auto;
+ 	  padding: 0 0 0 0;
+ 	  text-align: left;
+	  
+	}
+	
+.starcontain{
+	width: 100%;
+ 	  margin: 0 auto 0 auto;
+ 	  padding: 0 0 0 0;
+ 	  text-align: left;
+}
+.card-img {
+    width: 70%;
+    /*height: 15vw;*/
+    object-fit: cover;
+}
+ .main {
+	  margin-left: 200px; 
+	  padding: 0px 10px;
+	}
+/*.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+} */
+	
+#columncards{
+	
+}
+
+header {
+  background-color: #362c32;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.btn {
+background-color: #951111;
+border:none;
+color: white;
+padding:12px,16px;
+font-size:16px;
+cursor:pointer; 
+}
+
+.btn:hover {
+  background-color: #76071A;
+}
+	
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left,.right {
+  width: 20%; 
+}
+
+.content {
+  width: 100%;
+}
+
+.fcontent {
+  width: 100%;
+}
+.completed {
+  width: 20%;
+}
+
+.middle {
+  width: 80%;
+  
+}
+.complete {
+  width: 20%; 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+
+//media
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
