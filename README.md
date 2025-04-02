@@ -61,6 +61,12 @@ This is the final year project for my MSc in Software Development, designed to m
 
 4.  Serve the project using a local PHP server or through XAMPP/WAMP.
 
+## 🗂️ Database Schema
+
+The following ERD shows the relationships between tables used in the STAR recruitment system database:
+
+![Database Schema](docs/New_STAR_Database.jpg)
+
 
 ## Notes
 Be sure to configure your email settings in the PHPMailer config file if you want to enable email notifications.
